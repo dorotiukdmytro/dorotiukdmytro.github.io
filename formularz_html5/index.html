@@ -4,10 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Formularz - HTML5</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <p>Cześć</p>
+    <form action="" method="post">
+        <label for="name">Imię</label>
+        <input type="text" name="name">
+        <label for="surname">Nazwisko</label>
+        <input type="text" name="surname">
+        <label for="email">E-mail</label>
+        <input type="text" name="email">
+        <label for="tel">Telefon</label>
+        <input type="text" name="tel">
+        <label for="city">Wybierz miasto:</label>
+        <select name="city" id="city">
+            <option value="Krakow">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Poznan">Poznań</option>
+        </select>
+        <p>Podaj płeć:</p>
+
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Kobieta</label>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Mężczyzna</label>
+        <br>
+        <input type="checkbox" name="agreement" id="agreement">
+        <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+        <label for="message">Wiadomość:</label>
+        <textarea name="message" id="message" maxlength="250"></textarea>
+        <input type="submit" value="Send">
+    </form>
 </body>
 
 </html>
