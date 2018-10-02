@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-family: verdana, sans-serif;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/man-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+}
+
+.header-inner p {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.header-inner h1 {
+    font-size: 60px;
+}
