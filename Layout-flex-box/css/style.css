@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+header {
+    height: 8vh;
+    line-height: 8vh;
+    background-color: #8b0000;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+.left {
+    flex-basis: 15%;
+    background-color: #008000;
+}
+
+.right {
+    flex-basis: 15%;
+    background-color: #ee82ee;
+}
+
+article {
+    background-color: #87ceeb;
+    flex-basis: 70%;
+}
+
+footer {
+    height: 8vh;
+    line-height: 8vh;
+    background-color: #9400d3;
+}
