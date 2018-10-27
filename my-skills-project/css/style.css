@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #535151;
+}
+
+.header{
+    margin: 50px auto 0 auto;
+    width: 20%;
+}
+
+.header hr{
+    background-color: #535151;
+    margin: 0 auto;
+}
+.main-box{
+    margin-top: 50px;
+}
+
+.main-box p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.icon-box .leter-down{
+    vertical-align: sub;
+}
+
+.icon {
+    position: relative;
+    margin: 10px auto;
+    height: 200px;
+    width: 200px;
+    color: #de7b02;
+    background-color: #d6d5d5;
+    border-radius: 50%;
+}
+
+.icon .fab {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 82px;
+}
+
+
+
+
+
