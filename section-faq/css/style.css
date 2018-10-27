@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    color: #444;
+}
+
+.header hr {
+    background-color: #444;
+    height: 1px;
+}
+.orange {
+    color: #d38a01e7;
+}
+.orange:hover{
+    color: #444;
+}
